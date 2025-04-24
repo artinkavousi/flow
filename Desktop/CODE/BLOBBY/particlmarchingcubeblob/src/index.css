@@ -1,0 +1,26 @@
+/* src/index.css */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+
+/* LEVA Glassmorphism Style */
+.leva-glass-wrapper > div {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.leva-glass-wrapper .leva__rootText,
+.leva-glass-wrapper .leva__panel * {
+  color: #000 !important;
+}
+.leva-glass-wrapper input[type="range"] {
+  accent-color: #000;
+} 
